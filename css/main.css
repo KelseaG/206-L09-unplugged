@@ -84,9 +84,10 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-   /* General Styles*/
+Author's custom styles
+========================================================================== */
+
+/* General Styles*/
 
    html {
     font-size: 1rem;
@@ -225,6 +226,32 @@ textarea {
     justify-content: center;
    }
 
+   aside .form {
+    margin-top: 30px;
+  }
+  
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+  }
+  
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
    /* Features */
 
    .features {
@@ -309,7 +336,7 @@ textarea {
    }
 
    .faq h2 {
-    margin: 40px;
+    margin: 40px 0;
    } 
 
    .faq content {
@@ -410,7 +437,7 @@ textarea {
 
     /* General Styles */
     .content-wrapper {
-      max-width: 650px;
+      max-width: 640px;
       margin: 100px 0;
     }
 
@@ -431,7 +458,7 @@ textarea {
     }
 
     header nav ul {
-      justify-content: space-around;
+      justify-content: space-between;
     }
 
     .header-divider {
@@ -466,7 +493,7 @@ textarea {
     }
 
     .features .features-item-description {
-      width: 50%;
+      width: 62%;
     }
 
     /* Reviews */
@@ -499,6 +526,46 @@ textarea {
       width: 100%
     }
 
+    /* ==========================================================================
+   About Page
+   ========================================================================== */
+
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
+  }
+
+  .mission-content p {
+    width: 45%;
+  }
+
+  .contact-section .content-wrapper h2 {
+    width: 80%;
+  }
+
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  /* ==========================================================================
+  FAQ Page
+  ========================================================================== */
+   .faq .content-wrapper {
+    justify-content: space-between;
+  }
+
+  .faq-content {
+    flex-basis: 45%;
+  }
+
+  .faq h2 {
+    width: 100%;
+  }
+  
    }
 
    @media only screen and (min-width: 1200px) {
